@@ -25,6 +25,16 @@ function drop(event) {
     currentDraggedElement = null;
 }
 
+function resetGame() {
+    console.log("Reset Game called");
+    targetZones.forEach(zone => {
+        if (zone.children.length > 0) {
+            const label = zone.firstElementChild;
+            labelBox.appendChild(label);
+        }
+    });
+} 
+
 //Event listeners
 
 labels.forEach(label => {
