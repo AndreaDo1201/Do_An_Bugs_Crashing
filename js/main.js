@@ -4,6 +4,8 @@ console.log("JavaScript File is linked");
 const labels = document.querySelectorAll(".label");
 const targetZones = document.querySelectorAll(".target-zone");
 let currentDraggedElement = null;
+const resetBtn = document.querySelector(".reset-btn");
+const labelBox = document.getElementById("label-box");
 
 //functions
 
