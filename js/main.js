@@ -48,3 +48,5 @@ targetZones.forEach(target => {
     target.addEventListener("dragover", dragOver);
     target.addEventListener("drop", drop);
 });
+
+resetBtn.addEventListener("click", resetGame);
